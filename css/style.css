@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/images/5012279-winter-snow-nature-hd-4k-trees-moon.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", "sans-serif";
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 82px;
+  margin-top: -320px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.time__container{
+  display: flex;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 82px;
+  margin: 0 42px;
+}
+
+.countdown-el{
+  text-align: center;
+}
+
+.countdown-el span{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
